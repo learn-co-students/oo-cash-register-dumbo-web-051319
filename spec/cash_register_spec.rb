@@ -12,6 +12,7 @@ describe 'CashRegister' do
     end
   end
 
+
   describe '#total' do
     it 'returns the current total' do
       cash_register.total = 100
