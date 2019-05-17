@@ -1,0 +1,15 @@
+READ MEEEEE
+#I want to create twitter
+#simplest form twitter has a user, and a tweet. the user owe the tweets. the user is a suername and the tweets are contains
+
+create a user class,
+  initialize which takes a username and have a reader method for the username
+  tweets that return an array of tweet instances
+  post_tweet that takes a message, create a new tweeet, and adds it to the user's tweet collection
+
+Create a tweet class. the class should have these methods
+  initialize which takes the content of a tweet and an instance of a user object
+  tweet#content return a string
+  tweet#author that returns an instance of the user class
+  tweet#username that return username of the tweets username
+  tweet.all returns all tweets
